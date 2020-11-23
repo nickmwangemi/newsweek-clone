@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
-
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	margin: 0;
 	padding: 0;
 	background-color: rgb(244, 245, 246);
@@ -13,6 +11,7 @@ body {
 
 .logo {
 	width: 120px;
+	padding: 15px;
 }
 
 .main-logo {
@@ -47,8 +46,6 @@ span:hover {
 	color: #f74334;
 }
 
-/* jyoti's code */
-
 main {
 	overflow-x: hidden;
 }
@@ -57,16 +54,9 @@ main::-webkit-scrollbar {
 	display: none;
 }
 
-/*
-.container-fluid {
-    height: 100%;
-}
-*/
 .subscribe {
 	height: 300px;
 }
-
-/* Color classes */
 
 .heading-gray-color {
 	color: rgba(3, 3, 3, 0.4);
@@ -103,8 +93,6 @@ main::-webkit-scrollbar {
 	line-height: 21px;
 }
 
-/* font sizes */
-
 .roboto-cond {
 	font-family: 'Roboto Condensed', sans-serif;
 }
@@ -127,8 +115,6 @@ main::-webkit-scrollbar {
 	font-size: 20px;
 	line-height: 20px;
 }
-
-/* hover class */
 
 .hover:hover {
 	color: #000;
@@ -317,17 +303,12 @@ input[type='text'i] {
 		left: 120px;
 	}
 
-	/* .newsletter {
-    margin-top: 10px;
-  } */
-
-	/* NAVBAR */
 	.enlarge {
 		font-size: 25px;
 	}
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 990px) {
 	.mag-img {
 		margin-top: 20px;
 		height: 250px;
@@ -348,13 +329,10 @@ input[type='text'i] {
 		top: 50px;
 	}
 
-	/* NAVBAR */
 	.enlarge {
 		font-size: 25px;
 	}
 }
-
-/* footer section */
 
 .footer-image {
 	width: 20px;
